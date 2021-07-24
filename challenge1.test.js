@@ -33,6 +33,12 @@ describe("fizzBuzz", () => {
 //=================
 describe("shortenName", () => {
     it("takes full name and returns shortened version", () => {
-        expect(shortenName(fullname)).toBe("Robert C. Martin");
+        const person = {
+            givenName: "Robert",
+            middleName: "Cecil",
+            familyName: "Martin",
+        };
+
+        expect(shortenName(person)).toBe("Robert C. Martin");
     });
 });

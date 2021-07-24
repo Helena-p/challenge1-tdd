@@ -23,11 +23,6 @@ export const fizzBuzz = (num) => {
 //=================
 // NAME
 //=================
-const person = {
-    givenName: "Robert",
-    middleName: "Cecil",
-    familyName: "Martin",
-};
 
 export const shortenName = (fullname) => {
     return `${fullname.givenName} ${fullname.middleName[0]}. ${fullname.familyName}`;
