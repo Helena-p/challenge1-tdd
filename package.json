@@ -1,0 +1,17 @@
+{
+    "name": "challenge1-tdd",
+    "version": "1.0.0",
+    "description": "",
+    "main": "challenge1.test.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "Helena Plantin",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/preset-env": "^7.14.8",
+        "babel-jest": "^27.0.6",
+        "jest": "^27.0.6"
+    }
+}
