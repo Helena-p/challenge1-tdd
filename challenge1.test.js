@@ -32,6 +32,11 @@ describe("fizzBuzz", () => {
 // NAME
 //=================
 describe("shortenName", () => {
+    /**
+     * Takes persons name and returns shortened version
+     * @param {Object}  Object  The person details
+     * @return {String} String  String of person s name
+     */
     it("takes full name and returns shortened version", () => {
         const person = {
             givenName: "Robert",
@@ -42,3 +47,8 @@ describe("shortenName", () => {
         expect(shortenName(person)).toBe("Robert C. Martin");
     });
 });
+
+//=================
+// AVERAGE
+//=================
+describe("averageNumber", () => {});
