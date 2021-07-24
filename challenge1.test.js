@@ -35,7 +35,7 @@ describe("shortenName", () => {
     /**
      * Takes persons name and returns shortened version
      * @param {Object}  Object  The person details
-     * @return {String} String  String of person s name
+     * @return {String} String  String of persons name
      */
     it("takes full name and returns shortened version", () => {
         const person = {
@@ -51,4 +51,13 @@ describe("shortenName", () => {
 //=================
 // AVERAGE
 //=================
-describe("averageNumber", () => {});
+describe("averageNumber", () => {
+    /**
+     * Takes an Array of numbers and return the average of the total sum
+     * @param {Array} Array Array of numbers
+     * @return {Number}     The average of total sum
+     */
+    it("returns the average of the sum", () => {
+        expect(averageNumber(num)).toBe(13);
+    });
+});
