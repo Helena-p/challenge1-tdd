@@ -1,7 +1,13 @@
+//=================
+// DOG AGE
+//=================
 export const dogYears = (age) => {
     return age * 7;
 };
 
+//=================
+// FIZZBUZZ
+//=================
 export const fizzBuzz = (num) => {
     if (num % 3 == 0 && num % 5 == 0) {
         return "FizzBuzz";
@@ -13,3 +19,8 @@ export const fizzBuzz = (num) => {
         return "";
     }
 };
+
+//=================
+// NAME
+//=================
+export const shortenName = () => {};
