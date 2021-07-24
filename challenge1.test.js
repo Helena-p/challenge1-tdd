@@ -1,4 +1,4 @@
-import { dogYears, fizzBuzz } from "./index.js";
+import { dogYears, fizzBuzz, shortenName } from "./index.js";
 
 //=================
 // DOG AGE
@@ -33,6 +33,6 @@ describe("fizzBuzz", () => {
 //=================
 describe("shortenName", () => {
     it("takes full name and returns shortened version", () => {
-        expect(shortenName(person)).toBe("Robert C. Martin");
+        expect(shortenName(fullname)).toBe("Robert C. Martin");
     });
 });
