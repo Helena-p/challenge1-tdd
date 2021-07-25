@@ -90,6 +90,11 @@ describe("wordsLength", () => {
 // AVERAGE WORD LENGTH
 //====================
 describe("averageWordLength", () => {
+    /**
+     * Calculate average word length in a given sentence
+     * @param {String}  String  String to calculate
+     * @return {Number} Number  Average number of characters in word in sentence
+     */
     it("returns the average length word in a sentence", () => {
         const phrase = "Java is to JavaScript what Ham is to Hamster.";
         expect(averageWordLength(phrase)).toBe(4);
