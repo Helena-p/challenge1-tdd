@@ -62,3 +62,17 @@ describe("averageNumber", () => {
         expect(averageNumber(numbers)).toBe(13);
     });
 });
+
+//=================
+// WORDS
+//=================
+describe("wordsLength", () => {
+    /**
+     * Takes a string and return the number of words
+     * @param {String}  String  String to calculate
+     * @return {Number}     The number of words
+     */
+    it("returns number of words", () => {
+        expect(wordsLength(word)).toBe(18);
+    });
+});

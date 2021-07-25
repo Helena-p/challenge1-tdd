@@ -35,3 +35,7 @@ export const averageNumber = (num) => {
     let total = num.reduce((sum, current) => sum + current, 0);
     return total / num.length;
 };
+
+//=================
+// WORDS
+//=================
