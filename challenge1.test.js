@@ -4,6 +4,7 @@ import {
     shortenName,
     averageNumber,
     wordsLength,
+    averageWordLength,
 } from "./index.js";
 
 //=================
@@ -82,5 +83,15 @@ describe("wordsLength", () => {
         const words =
             "A user interface is like a joke. If you have to explain it, it is not that good.";
         expect(wordsLength(words)).toBe(18);
+    });
+});
+
+//====================
+// AVERAGE WORD LENGTH
+//====================
+describe("averageWordLength", () => {
+    it("returns the average length word in a sentence", () => {
+        const phrase = "Java is to JavaScript what Ham is to Hamster.";
+        expect(averageWordLength(phrase)).toBe(4);
     });
 });

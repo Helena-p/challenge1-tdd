@@ -43,3 +43,14 @@ export const wordsLength = (word) => {
     const newWord = word.split(/[\s,]/g).filter((ch) => ch !== "");
     return newWord.length;
 };
+
+//====================
+// AVERAGE WORD LENGTH
+//====================
+export const averageWordLength = (word) => {
+    let newWord = word.split(/[\s,]/g).filter((ch) => ch !== "");
+    let average = [];
+    average.push(newWord.map((el) => el.length));
+    let total = parseInt(average.reduce((sum, current) => sum + current, 0));
+    return total;
+};
