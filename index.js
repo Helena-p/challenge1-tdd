@@ -27,3 +27,11 @@ export const fizzBuzz = (num) => {
 export const shortenName = (fullname) => {
     return `${fullname.givenName} ${fullname.middleName[0]}. ${fullname.familyName}`;
 };
+
+//=================
+// AVERAGE
+//=================
+export const averageNumber = (num) => {
+    let total = num.reduce((sum, current) => sum + current, 0);
+    return total / num.length;
+};

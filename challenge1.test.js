@@ -1,4 +1,4 @@
-import { dogYears, fizzBuzz, shortenName } from "./index.js";
+import { dogYears, fizzBuzz, shortenName, averageNumber } from "./index.js";
 
 //=================
 // DOG AGE
@@ -57,7 +57,8 @@ describe("averageNumber", () => {
      * @param {Array} Array Array of numbers
      * @return {Number}     The average of total sum
      */
-    it("returns the average of the sum", () => {
-        expect(averageNumber(num)).toBe(13);
+    it("returns average of sum", () => {
+        const numbers = [5, 30, 8, 15, 2, 18];
+        expect(averageNumber(numbers)).toBe(13);
     });
 });
