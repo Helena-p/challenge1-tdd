@@ -1,4 +1,10 @@
-import { dogYears, fizzBuzz, shortenName, averageNumber } from "./index.js";
+import {
+    dogYears,
+    fizzBuzz,
+    shortenName,
+    averageNumber,
+    wordsLength,
+} from "./index.js";
 
 //=================
 // DOG AGE
@@ -73,6 +79,8 @@ describe("wordsLength", () => {
      * @return {Number}     The number of words
      */
     it("returns number of words", () => {
-        expect(wordsLength(word)).toBe(18);
+        const words =
+            "A user interface is like a joke. If you have to explain it, it is not that good.";
+        expect(wordsLength(words)).toBe(18);
     });
 });

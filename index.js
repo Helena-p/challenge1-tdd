@@ -39,3 +39,7 @@ export const averageNumber = (num) => {
 //=================
 // WORDS
 //=================
+export const wordsLength = (word) => {
+    const newWord = word.split(/[\s,]/g).filter((ch) => ch !== "");
+    return newWord.length;
+};
