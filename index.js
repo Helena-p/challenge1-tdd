@@ -52,5 +52,5 @@ export const averageWordLength = (word) => {
     let average = [];
     average.push(newWord.map((el) => el.length));
     let total = parseInt(average.reduce((sum, current) => sum + current, 0));
-    return total;
+    return total / average.length;
 };
